@@ -1,38 +1,183 @@
-.App {
-  text-align: center;
+body{
+  margin:0px;
+  padding: 0px;
 }
+.block{
+  width:100%;
+  height:910px;
+  background-color: #374151;
+  position: fixed;
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.MainBlock{
+  width:1000px;
+  height:500px;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  margin-left: 20%;
+  margin-top: 9%;
+}
+.mfirstBlock{
+  width:500px;
+  height:500px;
+background-color: #FFFFFF;
+border-top-left-radius: 10px;
+border-bottom-left-radius: 10px;
+}
+.mSecondBlock{
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+.formDimension{
+text-align: center;
+margin-top: 0px;
+}
+.formdimension{
+  width:330px;
+  margin:20px;
+  height:40px;
+  border:1px solid rgb(160, 184, 208);
+  outline: none;
+}
+.formdimension::placeholder{
+  font-size: 15px;
+  color:lightslategray;
+  font-style:normal;
+  letter-spacing: 1px;
+  font-weight:500;
+}
+.text{
+  font-size: 40px;
+  letter-spacing: 2px;
+  font-weight: lighter;
+  padding-top: 5px;
+
+}
+.button{
+  width:320px;
+  height:40px;
+  border:0px;
+  background-color: #60A5FA;
   color: white;
+  border-radius:3px;
+  margin:10px;
+  font-size: 17px;
+  letter-spacing: 1px;
+}
+.checkbox{
+ float: left;
+ margin-left: 82px;
+padding:5px
 }
 
-.App-link {
-  color: #61dafb;
+.navlink1{
+  float:left;
+  padding-top: 80px;
+  margin-left: 20px;
+  color:gray;
+  text-decoration: none;
+ 
+}
+.navlink1:hover{
+  border-bottom: 1px solid;
+}
+.navlink2{
+  float:right;
+  padding-top: 80px;
+  margin-right: 20px;
+  color:gray;
+  border-bottom: none;
+  text-decoration: none;
+}
+.navlink2:hover{
+  border-bottom: 1px solid;
+}
+.check{
+  margin:5px
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.SignupDimension{
+  text-align: center;
+margin: 0px;
+}
+.signupText{
+  text-align: center;
+  font-size: 35px;
+  margin: 0px;
+  padding-top: 10px;
+  letter-spacing: 2px;
+  font-weight: lighter;
+}
+.formdimension{
+  margin:15px;
+  border-radius:5px
+}
+.signlink{
+ margin-left: 20px;
+ position:fixed;
+ color:gray;
+ text-decoration: none;
+}
+.signlink:hover{
+  border-bottom:1px solid green;
+}
+.error{
+  color:red;
+  margin:0px;
+  padding:0px;
+ margin-right: 250px;
+}
+.signuperror{
+  margin:0px;
+  color:red;
+  margin-right: 200px;
+}
+
+.navlink{
+  margin-left: 30px;
+ text-decoration: none;
+ color:white;
+ letter-spacing: 1px;
+font-size: 18px
+}
+.icon{
+  color:white;
+  float: right;
+  margin-right: 100px;
+}
+.icon:hover{
+  border-bottom: 2px solid black;
+}
+.navhome{
+  height:45px;
+
+}
+.navlink:hover{
+  border-bottom: 2px solid black;
+}
+.employtext{
+  float:left;
+  color:white
+}
+
+.tableDimension{
+  width:70%;
+  margin:2%;
+  margin-left: 15%;
+}
+.employButton{
+  width:160px;
+  float:right;
+}
+
+.modelForm{
+  margin:10px;
+  width:200px;
+  height:32px;
+}
+.modelButton{
+  margin-left: 10px;
+  width:200px
+}
+.navChild{
+  margin-top: 90px;
 }
